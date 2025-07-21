@@ -76,7 +76,7 @@ Aller, L. (1985). DRASTIC: A Standardized System for Evaluating Ground Water Pol
 If you use this software, please cite it using the information provided in the [CITATION](CITATION) file or use the following reference:
 
 ### APA Format
-Pereira, G. (2025). Drastic methodology in format of plug-in in QGIS (Version 1.0.3) [Computer software]. Zenodo. https://doi.org/10.0000/zenodo.1234
+Pereira, G. (2025). Drastic methodology in format of plug-in in QGIS (Version 1.0.3) [Computer software].
 
 ### BibTeX Format
 ```bibtex
@@ -85,6 +85,5 @@ author = {Pereira, Gonçalo},
 title = {Drastic methodology in format of plug-in in QGIS},
 version = {1.0.3},
 date = {2025},
-doi = {10.0000/zenodo.1234},
 url = {https://github.com/pereira-barbosa-goncalo/Drastic}
 }
