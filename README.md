@@ -69,4 +69,8 @@ This project is licensed under the GNU General Public License (GPL) version 3.0.
 
 ## References
 
-Aller, L. (1985). DRASTIC: A Standardized System for Evaluating Ground Water Pollution Potential Using Hydrogeologic Settings. Robert S. Kerr Environmental Research Laboratory, Office of Research and Development, US Environmental Protection Agency. 
+Aller, L. (1985). DRASTIC: A Standardized System for Evaluating Ground Water Pollution Potential Using Hydrogeologic Settings. Robert S. Kerr Environmental Research Laboratory, Office of Research and Development, US Environmental Protection Agency.
+
+## Citation
+
+For citation please check [CITATION](CITATION)
