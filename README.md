@@ -63,3 +63,6 @@ We welcome contributions to the DRASTIC Index Calculator plugin! If you would li
 2. **Create a Feature Branch**: Develop your feature or bug fix in a separate branch:
    ```bash
    git checkout -b feature/your-feature-name
+## License
+
+This project is licensed under the GNU General Public License (GPL) version 3.0. See the [LICENSE](LICENSE) file for more details.
