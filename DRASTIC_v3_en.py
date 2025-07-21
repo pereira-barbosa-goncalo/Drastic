@@ -422,9 +422,9 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
                         break
 
         except FileNotFoundError:
-            print(f"Error: The file at {csv_path} was not found.")
+            feedback.pushInfo(f"Error: The file at {csv_path} was not found.")
         except Exception as e:
-            print(f"An error occurred: {e}")
+            feedback.pushInfo(f"An error occurred: {e}")
 
         in_out_map = {}#este dicionário é o csv transformado para visualizar faz print(in_out_map) antes de except
         try:
@@ -452,10 +452,10 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
 
         # Check if the layer is valid
         if not geologia.isValid():
-            print("Failed to load the layer!")
+            feedback.pushInfo("Failed to load the layer!")
             # Print additional information about the error
-            print("Error details:", geologia.error().summary())
-            print("File readable:", os.access(caminho_geologia, os.R_OK))
+            feedback.pushInfo("Error details:", geologia.error().summary())
+            feedback.pushInfo("File readable:", os.access(caminho_geologia, os.R_OK))
         else:
             # Start editing the layer
             geologia.startEditing()
@@ -514,9 +514,9 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
                         break
 
         except FileNotFoundError:
-            print(f"Error: The file at {csv_path} was not found.")
+            feedback.pushInfo(f"Error: The file at {csv_path} was not found.")
         except Exception as e:
-            print(f"An error occurred: {e}")
+            feedback.pushInfo(f"An error occurred: {e}")
 
 
         in_out_map = {} #este dicionário é o csv transformado para visualizar faz print(in_out_map) antes de except
@@ -538,15 +538,15 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
             
             
         except Exception as e:
-            print(f"An error occurred while creating the mapping: {e}")
+            feedback.pushInfo(f"An error occurred while creating the mapping: {e}")
             
         #------------------call shp ------------------
         solo=soil
         # Check if the layer is valid
         if not solo.isValid():
-            print("Failed to load the layer!")
-            print("Error details:", solo.error().summary())
-            print("File readable:", os.access(caminho_soil, os.R_OK))
+            feedback.pushInfo("Failed to load the layer!")
+            feedback.pushInfo("Error details:", solo.error().summary())
+            feedback.pushInfo("File readable:", os.access(caminho_soil, os.R_OK))
         else:
             #print("Carregou layer")
             # Start editing the layer
@@ -652,9 +652,9 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
                         break
 
         except FileNotFoundError:
-            print(f"Error: The file at {csv_path} was not found.")
+            feedback.pushInfo(f"Error: The file at {csv_path} was not found.")
         except Exception as e:
-            print(f"An error occurred: {e}")
+            feedback.pushInfo(f"An error occurred: {e}")
 
 
         in_out_map = {} #este dicionário é o csv transformado para visualizar faz print(in_out_map) antes de except
@@ -677,18 +677,17 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
             
             
         except Exception as e:
-            print(f"An error occurred while creating the mapping: {e}")
+            feedback.pushInfo(f"An error occurred while creating the mapping: {e}")
 
 
         #------------------call shp ------------------
         solo=soil
         # Check if the layer is valid
         if not solo.isValid():
-            print("Failed to load the layer!")
-            print("Error details:", solo.error().summary())
-            print("File readable:", os.access(caminho_soil, os.R_OK))
+            feedback.pushInfo("Failed to load the layer!")
+            feedback.pushInfo("Error details:", solo.error().summary())
+            feedback.pushInfo("File readable:", os.access(caminho_soil, os.R_OK))
         else:
-            #print("Carregou layer")
             # Start editing the layer
             solo.startEditing()
 
