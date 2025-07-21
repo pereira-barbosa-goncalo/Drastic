@@ -66,3 +66,10 @@ We welcome contributions to the DRASTIC Index Calculator plugin! If you would li
 ## License
 
 This project is licensed under the GNU General Public License (GPL) version 3.0. See the [LICENSE](LICENSE) file for more details.
+
+## References
+
+Aller, L., Bennet, T., Lehr, J. H., Petty, R. J., Hackett, G., Applications, J. T., 
+Branch, A., & Kerr, R. S. (1987). DRASTIC: A STANDARDIZED SYSTEM FOR 
+EVALUATING GROUND WATER POLLUTION POTENTIAL USING HYDROGEOLOGIC 
+SETTINGS. 
