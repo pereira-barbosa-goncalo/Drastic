@@ -87,3 +87,5 @@ version = {1.0.3},
 date = {2025},
 url = {https://github.com/pereira-barbosa-goncalo/Drastic}
 }
+```
+#### Made in Quintiães
