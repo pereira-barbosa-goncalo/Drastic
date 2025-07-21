@@ -65,4 +65,4 @@ We welcome contributions to the DRASTIC Index Calculator plugin! If you would li
    git checkout -b feature/your-feature-name
 ## License
 
-This project is licensed under the GNU General Public License (GPL) version 3.0. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GNU General Public License (GPL) version 3.0. See the [LINCENSE](LICENSE) file for more details.
