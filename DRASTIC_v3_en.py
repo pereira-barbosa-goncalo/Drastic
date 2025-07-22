@@ -834,3 +834,7 @@ class ExampleProcessingAlgorithm(QgsProcessingAlgorithm):
 
     def createInstance(self):
         return self.__class__()
+
+'''
+Made in Quintiães
+'''
